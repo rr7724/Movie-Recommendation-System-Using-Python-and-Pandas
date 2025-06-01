@@ -15,12 +15,12 @@
 
 
 #Import all necessary libraries
+import os
+os.system('pip install matplotlib')
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 from IPython.html.widgets import *
-sns.set_style('white')
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
